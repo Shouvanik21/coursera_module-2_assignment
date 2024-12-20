@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 30vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 10px;
+}
+.container1{
+    border: 1px solid black;
+}
+.container2{
+    border: 1px solid black;
+}
+.container3{
+    border: 1px solid black;
+}
+.container1,.container2,.container3{
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    
+}
