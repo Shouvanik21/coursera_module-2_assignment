@@ -52,6 +52,7 @@ header{
 }
 .name1,.name2,.name3{
     /* background-color: red; */
+    /* position: ; */
     margin-left: 78%;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
@@ -60,4 +61,29 @@ header{
 }
 .description1,.description2,.description3{
     padding: 20px 10px 10px 15px;
+}
+@media screen and (max-width:500px){
+    header{
+        height: 5vh;
+        margin-top: 5%;
+    }
+    .container{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .description1,.description2,.description3{
+        font-size: large;
+    }
+    .container1,.container2,.container3{
+        height: 200px;
+        margin: 10px 0px 10px 0px;
+    }
+    .name1,.name2,.name3{
+        margin-left: 70%;
+        text-align: center;
+    }
 }
