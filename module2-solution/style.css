@@ -63,6 +63,9 @@ header{
     padding: 20px 10px 10px 15px;
 }
 @media screen and (max-width:500px){
+    main{
+        background-color: whitesmoke;
+    }
     header{
         height: 5vh;
         margin-top: 5%;
@@ -77,6 +80,7 @@ header{
     }
     .description1,.description2,.description3{
         font-size: large;
+        padding-top: 5px;
     }
     .container1,.container2,.container3{
         height: 200px;
