@@ -4,10 +4,14 @@
 }
 .main{
     height: 100vh;
+    font-family: "Parkinsas",sans-serif;
+    background-color: whitesmoke;
+    /* font-weight: 300; */
 }
 header{
-    height: 25vh;
+    height: 20vh;
     font-size: 30px;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +21,8 @@ header{
     justify-content: center;
     align-items: center;
     height: 70vh;
-    margin: 10px;
+    margin: 40px 10px 10px 10px;
+    font-weight: 600;
 }
 .container1{
     border: 1px solid black;
@@ -34,7 +39,7 @@ header{
     margin: 5px;
     font-size: x-large;
     height: 30vh;    
-    border: 5px solid black;
+    border: 3px solid black;
 }
 .name1{
     background-color: pink;
@@ -48,11 +53,11 @@ header{
 .name1,.name2,.name3{
     /* background-color: red; */
     margin-left: 78%;
-    border-left: 5px solid black;
-    border-bottom: 5px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
     text-align: center;
     padding-right: 10px;
 }
 .description1,.description2,.description3{
-    padding: 10px;
+    padding: 20px 10px 10px 15px;
 }
